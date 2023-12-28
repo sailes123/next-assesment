@@ -22,7 +22,7 @@ const Blogs = ({params}: BlogProps) => {
   },[params])
   
   return (
-    <div className='p-10 w-full '>
+    <div className='p-4 sm:p-10 w-full '>
       <h1 className='text-center mb-6 text-[30px] font-bold'>{blogDetail?.title??''}</h1>
       <p className='mb-10'>
           {blogDetail?.description??''}
